@@ -11,4 +11,5 @@
    2. dotnet tool install dotnet-ef
 4. 建立資料庫模型
    1. dotnet ef dbcontext scaffold "Data Source=120.117.2.x;Initial Catalog=AdventureWorks2014;User ID=e2605;Password=e2605" Microsoft.EntityFrameworkCore.SqlServer -o  Models -t Person.Address  -f
+5. 設定CORS
 
